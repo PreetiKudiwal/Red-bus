@@ -794,6 +794,7 @@ input:focus {
     width: 82%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     padding: 25px 30px;
     justify-content: space-between;
     color: #1D1D1D;
@@ -803,6 +804,32 @@ input:focus {
     border-radius: 20px;
     margin-top: 30px;
     cursor: pointer;
+}
+.canAns{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 30px;
+    justify-content: space-between;
+    color: #1D1D1D;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #F3F4F9;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #F3F4F9;
+    cursor: pointer;
+}
+
+.ans{
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.showans{
+    display: block;
 }
 
 .can-icon {
